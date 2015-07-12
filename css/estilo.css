@@ -1,0 +1,651 @@
+@import url(//fonts.googleapis.com/css?family=Lato:400,900);
+
+html{
+    font-family: sans-serif, Arial;    
+}
+
+body{
+ background-image: url('../_images/bg-foto.jpg');
+ background-repeat: no-repeat;
+ background-position: top;
+ background-color: #095088;
+ behavior: url (css/csshover2.htc);/* inclui efeito :hover, :active e :focus para Internet Explorer 6 */
+ color: white;
+ margin: 0;
+}
+
+#accordion {
+    visibility: hidden;   
+}
+
+.loading{ color:#fff; text-align:center; vertical-align: middle; font-size: 12px;}
+
+img{
+    border: none;   
+}
+
+p{
+    font-size: 16px;
+    color: white;
+}
+
+#wrapper{
+    width: 980px;
+    margin: 0 auto;
+    min-height:700px;
+}
+
+.internabgAzul{
+    background: rgba(0, 0, 0, 0) url("../_images/accordion-bg.png") repeat scroll 0 0;
+    padding: 10px 20px 20px;
+    width: 100%;
+    margin-left: -15px;
+}
+
+.titulo{
+    text-transform:uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight:800;
+}
+
+.tituloInterna{
+    font-family: 'Lato', sans-serif;
+    font-weight:800;
+    color: #7ed2fd;
+    font-size: 20px;
+}
+
+.creditos{
+    color: #888888;
+    font-size: 12px;
+}
+
+a{
+    font-family: sans-serif, Arial;
+    color: #888888;
+}
+
+.verde{
+    color: #84db58;
+}
+
+.amarelo{
+    color: #feca04;
+}
+
+.azulClaro{
+    color: #68c9fb;
+}
+
+#wrapperFancybox{
+    width:100%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+#topo{
+    height: 175px;
+}
+
+#logo{
+    float: left;
+    width: 134px;
+    height: 126px;
+}
+
+#bancoDeImagens{
+    margin: 0 140px;
+    float: left;
+}
+
+#topoIcones{
+    float: right;
+    height: 36px;
+    position: relative;
+    width: 685px;
+    margin: 20px 0 0;
+}
+
+#topoIcones ul{
+    margin: 0 -1px;
+    overflow: hidden;
+    padding: 0;
+    float: right;
+    
+}
+
+#topoIcones ul li{
+    margin: 0;
+    padding: 0;
+    display: inline;
+    width: 26px;
+    vertical-align:middle;
+}
+
+#topoIcones ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    display: inline-block;
+}
+
+ul#tamanhoFonte{
+    line-height: 24px;
+    margin: 0 8px;
+}
+
+ul#tamanhoFonte li{
+    margin:0 2px;
+    width: 10px;
+}
+
+ul#idioma{
+    line-height: 24px;
+    margin: 0 8px;
+}
+
+ul#idioma li{
+    margin:0 2px;
+    width: 15px;
+}
+
+#datasJogos{
+    float: right;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 20px;
+}
+
+#datasJogos span{
+    font-size: 18px;
+}
+
+/* *************** COMEÇA MENU DROPDOWN *************** */
+
+#menu {
+    height: 43px;
+    list-style: outside none none;
+    margin: 10px auto 50px;
+    padding: 0;
+    width: 890px;
+}
+
+
+
+#menu li{
+    float: left;
+    position:relative;
+    display: inline; 
+    text-transform:uppercase;
+    font-family: 'Lato', sans-serif;
+}
+
+#menu li a{
+    color: white;
+    float: left;
+    padding-top: 25px;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    height: 40px;
+
+}
+
+.btPrincipal{
+    float:left;
+    background: url("../_images/bt_menu.png");
+    width: 250px;
+    height: 65px;
+    font-family: 'Lato', sans-serif;
+    font-weight:900;
+    font-size: 18px;
+    margin: 0 22px;
+    text-align: center;
+    line-height: 1.1;
+}
+
+.instalacoes-en a{
+    padding: 24px 43px !important;
+}
+
+
+
+
+#menu li:hover a{
+    background: white;
+    color: #0384c6 !important;
+    height: 45px;
+}
+
+#menu li.selected{
+    color: #7ed2fd;
+    background: rgba(0, 0, 0, 0) url("../_images/accordion-bg.png") repeat scroll 0 0;
+    height: 93px;
+}
+
+#menu li a.desativado{
+    color: #aacce7 !important;
+    pointer-events: none;
+}
+
+.dropdown_1column, 
+.dropdown_2columns, 
+.dropdown_3columns, 
+.dropdown_4columns,
+.dropdown_5columns {
+    position:absolute;
+    left:-999em; /* Hides the drop down */
+    text-align:left;
+    padding:0px 5px 10px 5px;
+    background: white;
+    color: #0384c6;
+    z-index: 999999;
+    margin: -10px 0px;    
+}
+
+.dropdown_1column {width: 240px;}
+.dropdown_2columns {width: 420px;}
+.dropdown_3columns {width: 630px;}
+.dropdown_4columns {width: 840px;}
+.dropdown_5columns {width: 1020px;}
+
+#menu li:hover .dropdown_1column, 
+#menu li:hover .dropdown_2columns, 
+#menu li:hover .dropdown_5columns {
+    left:0; top:80px;
+}
+
+#menu li:hover .dropdown_4columns{
+    left: -300px;
+    top: 80px;
+}
+
+#menu li:hover .dropdown_3columns{
+    left: -390px;
+    top: 80px;
+}
+
+.col_1,
+.col_2,
+.col_3,
+.col_4,
+.col_5 {
+    display:inline !important;
+    float: left !important;
+    position: relative !important;
+    margin: 20px 5px;
+    font-weight: bold;
+}
+.col_1 {width:160px;}
+.col_2 {width:270px;}
+.col_3 {width:410px;}
+.col_4 {width:550px;}
+.col_5 {width:690px;}
+
+#menu li ol li{
+    margin: 3px 0;
+    font-size: 14px;
+    margin: 3px 0;
+    text-transform: none;
+    display:block;
+    width:100%;
+}
+
+#menu li ol li a{
+    text-transform:none;
+    margin: 3px 0;
+    font-size: 14px;
+    padding: 0!important;
+    height:auto !important; 
+} 
+
+#menu li ol li a:hover{
+    text-decoration: underline;
+    opacity: 0.7;
+}
+
+#menu li ol li ol{
+  font-weight: normal;
+  font-size: 13px;
+  margin: 1px 0 1px -20px;
+}
+
+
+
+/* *************** TERMINA MENU DROPDOWN ***************  */
+
+#textoPrincipal{
+    clear: both;
+    line-height: 1.2;
+    margin: 30px auto;
+    padding: 20px;
+    width: 950px;
+}
+
+#colunaEsquerda{
+    width: 420px;
+    float: left;
+    padding: 0 70px 20px 0;
+}
+
+#colunaDireita{
+    width: 420px;
+    float: left;
+    font-style: italic; 
+}
+
+#colunaDireita p{
+    color: #8A8888 !important;
+}
+
+#colunaEsquerda a:hover{
+   opacity: .6;
+	filter:alpha(Opacity=60);
+}
+
+#colunaDireita a:hover{
+    opacity: .6;
+	filter:alpha(Opacity=60);
+}
+
+#fotos{
+    visibility: hidden;
+    clear:both;
+    display: block;
+}
+
+#fotoMaior{
+    margin:0;
+    padding:0;
+}
+
+#fotoMaior a{
+    margin:0;
+    padding:0;
+}
+
+#fotoMaior a span {
+    background: none repeat scroll 0 0 #000000;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-size: 40px;
+    margin: 482px 0 0;
+    opacity: 0.7;
+    filter:Alpha(Opacity=70);
+    padding: 10px;
+    position: absolute;
+    z-index: 999;
+}
+
+#fotoMaior a:hover{
+    opacity: .7;
+    filter:Alpha(Opacity=70);  
+}
+
+#fotoMaior a img{
+   padding: 0;
+    margin:0;
+}
+
+
+#fotosMenores span {
+    background: none repeat scroll 0 0 #000000;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-size: 20px;
+    margin: 150px 0 0;
+    opacity: 0.7;
+    filter:Alpha(Opacity=70);
+    padding: 5px;
+    position: absolute;
+    z-index: 999;
+}
+
+#fotosMenores{
+    
+}
+
+#fotosMenores ul{
+    width: 981px;
+    height:185px;
+    margin: -4px 0;
+    padding:0;
+    list-style: none;
+    
+}
+
+#fotosMenores ul li{
+    float: left;
+    display: inline;
+}
+
+#fotosMenores ul a:hover{
+    opacity: .7;
+	filter:Alpha(Opacity=70);
+    
+}
+
+#rodape{
+    /*border-bottom: solid #e7af01 1px; */
+    width: 100%;
+    background: white;
+    margin: 40px 0 0;
+}
+
+#acesseTambem{
+    background: white none repeat scroll 0 0;
+    height: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    width: 980px;
+}
+
+#acesseTambem h2{
+    color: #032e61;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+#acesseTambem ul{
+    background: white;
+}
+
+#acesseTambem ul li{
+    float: left;
+    margin: 6px;
+    width: 65px;
+    list-style: none;
+    height: 100px;
+}
+
+#copywrite{
+    background: #143d81;
+    font-size: 12px;
+    line-height: 40px;
+    text-align: center;
+    clear: left;
+    padding: 15px 0;
+}
+
+
+
+#logoNbr{
+    float: right;
+}
+
+#expediente{
+    float: left;
+}
+
+#expediente a:hover{
+    opacity: .5;
+	filter:Alpha(Opacity=50);
+}
+
+#bottom{
+    width: 100%;
+    position: absolute;
+    background-image:url("../_images/desenhos.png");
+    background-repeat:repeat-x;
+    height: 180px;
+    margin-bottom: -7px;
+    padding-left: -10px;
+}
+
+/* PAGINAÇÃO */
+
+        #itemContainer{
+            margin: 0;
+            padding: 0 0 20px 0;
+        }
+
+        .paginacao ul{
+           margin: 0 0 20px 0;
+            float: none;
+        }
+        .paginacao ul li{
+            list-style-type: none;
+            display: inline-block;
+            margin: 25px 6px 20px 0;
+            width: 220px;
+            height: 190px;
+            float: left;
+        }
+
+        .paginacao ul li a:hover{
+            opacity: 0.7;
+        }
+
+        .holder
+        {
+            text-align: center;
+            padding: 30px 0 20px 0;
+            width: 100%;
+            display: inline-block;
+        }
+        .holder a
+        {
+            font-size: 11px;
+            cursor: pointer;
+            color: #969696 !important;
+            margin: 0 2px;
+            padding: 5px 8px;
+            background-color: #f0f0f0;
+            border: solid 1px #b0b0b0;
+            -webkit-border-radius: 2px;
+            -moz-border-radius: 2px;
+            border-radius: 2px;
+            
+        }
+        .holder a:hover
+        {
+            background-color: #fff;
+            color: #b0b0b0;
+        }
+        .holder a.jp-previous
+        {
+            margin-right: 15px;
+        }
+        .holder a.jp-next
+        {
+            margin-left: 15px;
+        }
+        .holder a.jp-current, a.jp-current:hover
+        {
+            color: #bbb;
+            font-weight: bold;
+            background-color: #fff;
+        }
+        .holder a.jp-disabled, a.jp-disabled:hover
+        {
+            color: #969696;
+            opacity: 0.3;
+        }
+        .holder a.jp-current, a.jp-current:hover, .holder a.jp-disabled, a.jp-disabled:hover
+        {
+            cursor: default;
+            background: #fff;
+            
+        }
+        .holder span
+        {
+            margin: 0 5px;
+        }
+
+
+/* REMODAL */
+
+
+.pFancybox{
+    font-size: 14px;
+    color: #636363;
+    margin: 10px 0 20px 0;
+}
+
+.pExpediente{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #b0b0b0;
+    margin: 10px 0 20px 0; 
+    line-height: 1.5;
+}
+
+.pExpediente b{
+    color: #5b5b5b;
+}
+
+.tituloFancybox{
+    font-family: 'Lato', sans-serif;
+    font-weight:800;
+    font-size: 20px;
+    margin: 20px 0 0 0;
+    color: #0169a2;
+}
+
+.botaoDownload{
+    padding: 10px 0;
+}
+
+.creditos{
+    color: #888888;
+    font-size: 12px;
+}
+
+a{
+    font-family: sans-serif, Arial;
+    color: #888888;
+}
+
+
+
+#wrapperFancybox{
+    margin: 0;
+    background-color: #fff;
+    border: solid 1px #a3d4ff;
+    padding: 0 10%;
+    width: 80%;
+    height: 90%;
+    text-align: left !important;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 10px;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
