@@ -24,6 +24,7 @@ htmls =  u'/Users/lflrocha/Repositorios/ebc.olimpiadas2016/'
 
 naoesportivas = [ 'Não esportivas',[
 ['Vila Olímpica', 'Descrição',   [
+    ['2015-06_0021','Vila Olímpica','Imagem aérea. Obras.','Ministério do Esporte do Brasil','Junho/2015'],
     ['2015-03_0025','Vila Olímpica','Imagem aérea. Obras.','Ministério do Esporte do Brasil','Abril/2015'],
 ]],
 ['IBC/MPC e Hotel de Mídia', 'Descrição',   [
@@ -41,6 +42,8 @@ naoesportivas = [ 'Não esportivas',[
 
 barra = [ 'Região Barra',[
 ['Parque Olímpico do Rio', 'Descrição', [  
+    ['2015-06_0009','Parque Olímpico do Rio','Imagem aérea. Obras.','Ministério do Esporte do Brasil','Junho/2015'],
+
     ['2015-05_0010','Parque Olímpico do Rio','Imagem aérea. Obras.','Ministério do Esporte do Brasil','Maio/2015'],
     ['2015-03_0028','Parque Olímpico do Rio','Imagem aérea. Obras.','Ministério do Esporte do Brasil','Abril/2015'],
     ['2015-03_0029','Parque Olímpico do Rio','Imagem aérea. Obras.','Ministério do Esporte do Brasil','Abril/2015'],
@@ -57,6 +60,7 @@ barra = [ 'Região Barra',[
 ]],
 
 ['Centro Olímpico de Tênis', 'Descrição',  [
+    ['2015-06_0011','Centro Olímpico de Tênis','Quadras secundárias. Imagem aérea.','Ministério do Esporte do Brasil','Junho/2015'],
     ['2015-05_0011','Centro Olímpico de Tênis','Imagem aérea. Obras.','Ministério do Esporte do Brasil','Maio/2015'],
     ['2015-03_0034','Centro Olímpico de Tênis','Imagem aérea. Obras.','Ministério do Esporte do Brasil','Abril/2015'],
     ['2015-03_0035','Centro Olímpico de Tênis','Quadras secundárias. Imagem aérea.','Ministério do Esporte do Brasil','Abril/2015'],
@@ -65,6 +69,9 @@ barra = [ 'Região Barra',[
 ]],
 
 ['Estádio Olímpico de Esportes Aquáticos', 'Descrição',  [
+    ['2015-06_0012','Estádio Olímpico de Esportes Aquáticos','Imagem aérea. Obras.','Ministério do Esporte do Brasil','Junho/2015'],
+
+
     ['2015-05_0009','Estádio Olímpico de Esportes Aquáticos','Imagem aérea. Obras.','Ministério do Esporte do Brasil','Maio/2015'],
     ['2015-03_0038','Estádio Olímpico de Esportes Aquáticos','Imagem aérea.','Ministério do Esporte do Brasil','Abril/2015'],
 
@@ -83,6 +90,8 @@ barra = [ 'Região Barra',[
 ]],
 
 ['Velódromo Olímpico', 'Descrição',  [
+    ['2015-06_0010','Velódromo Olímpico','Imagem aérea. Obras.','Ministério do Esporte do Brasil','Junho/2015'],
+
     ['2015-03_0033','Velódromo Olímpico','Imagem aérea. Obras.','Ministério do Esporte do Brasil','Abril/2015'],
 ]],
 
@@ -91,6 +100,10 @@ barra = [ 'Região Barra',[
 ]],
 
 ['Campo Olímpico de golfe', 'Descrição',  [
+    ['2015-06_0017','Campo Olímpico de golfe','Imagem aérea.','Ministério do Esporte do Brasil','Junho/2015'],
+    ['2015-06_0018','Campo Olímpico de golfe','Imagem aérea.','Ministério do Esporte do Brasil','Junho/2015'],
+
+
     ['2015-03_0041','Campo Olímpico de golfe','Imagem aérea.','Ministério do Esporte do Brasil','Abril/2015'],
     ['2015-03_0042','Campo Olímpico de golfe','Imagem aérea.','Ministério do Esporte do Brasil','Abril/2015'],
 ]],
@@ -100,13 +113,18 @@ barra = [ 'Região Barra',[
 #]],
 ]]
 
-
-
-
-
-
 deodoro = [ 'Região Deodoro',[
+['Arena de Rúgbi e Pentatlo Moderno', 'Descrição',   [
+    ['2015-06_0005','Arena de Rúgbi e Pentatlo Moderno','Imagem aérea.','Ministério do Esporte do Brasil','Junho/2015'],
+    ['2015-06_0007','Arena de Rúgbi e Pentatlo Moderno','Imagem aérea.','Ministério do Esporte do Brasil','Junho/2015'],
+    ['2015-03_0009','Arena de Rúgbi e Pentatlo Moderno','Imagem aérea.','Ministério do Esporte do Brasil','Abril/2015'],
+    ['2015-03_0010','Arena de Rúgbi e Pentatlo Moderno','Imagem aérea.','Ministério do Esporte do Brasil','Abril/2015'],
+    ['2015-03_0011','Arena de Rúgbi e Pentatlo Moderno','Imagem aérea.','Ministério do Esporte do Brasil','Abril/2015'],
+]],
 ['Arena da Juventude', 'Descrição',   [
+    ['2015-06_0005','Arena da Juventude','Imagem aérea.','Ministério do Esporte do Brasil','Junho/2015'],
+    ['2015-06_0007','Arena da Juventude','Imagem aérea.','Ministério do Esporte do Brasil','Junho/2015'],
+    ['2015-06_0008','Arena da Juventude','Imagem aérea.','Ministério do Esporte do Brasil','Junho/2015'],
     ['2015-05_0003','Arena da Juventude','Imagem aérea.','Ministério do Esporte do Brasil','Maio/2015'],
     ['2015-05_0005','Arena da Juventude','Imagem aérea.','Ministério do Esporte do Brasil','Maio/2015'],
     ['2015-03_0009','Arena da Juventude','Imagem aérea.','Ministério do Esporte do Brasil','Abril/2015'],
@@ -115,17 +133,10 @@ deodoro = [ 'Região Deodoro',[
     ['2015-03_0012','Arena da Juventude','Imagem aérea.','Ministério do Esporte do Brasil','Abril/2015'],
     ['2015-03_0013','Arena da Juventude','Imagem aérea.','Ministério do Esporte do Brasil','Abril/2015'],
     ['2015-03_0016','Arena da Juventude','Imagem aérea.','Ministério do Esporte do Brasil','Abril/2015'],
-
 ]],
-
-['Arena de Rúgbi e Pentatlo Moderno', 'Descrição',   [
-    ['2015-03_0009','Arena de Rúgbi e Pentatlo Moderno','Imagem aérea.','Ministério do Esporte do Brasil','Abril/2015'],
-    ['2015-03_0010','Arena de Rúgbi e Pentatlo Moderno','Imagem aérea.','Ministério do Esporte do Brasil','Abril/2015'],
-    ['2015-03_0011','Arena de Rúgbi e Pentatlo Moderno','Imagem aérea.','Ministério do Esporte do Brasil','Abril/2015'],
-
-]],
-
 ['Centro Nacional de Hipismo', 'Descrição',   [
+    ['2015-06_0003','Centro Nacional de Hipismo','Imagem aérea.','Ministério do Esporte do Brasil','Junho/2015'],
+    ['2015-06_0004','Centro Nacional de Hipismo','Imagem aérea.','Ministério do Esporte do Brasil','Junho/2015'],
     ['2015-05_0007','Centro Nacional de Hipismo','Imagem aérea.','Ministério do Esporte do Brasil','Maio/2015'],
     ['2015-03_0017','Centro Nacional de Hipismo','Imagem aérea.','Ministério do Esporte do Brasil','Abril/2015'],
     ['2015-03_0018','Centro Nacional de Hipismo','Imagem aérea.','Ministério do Esporte do Brasil','Abril/2015'],
@@ -133,8 +144,8 @@ deodoro = [ 'Região Deodoro',[
     ['2015-03_0021','Centro Nacional de Hipismo','Imagem aérea.','Ministério do Esporte do Brasil','Abril/2015'],
     ['2015-03_0023','Centro Nacional de Hipismo','Imagem aérea.','Ministério do Esporte do Brasil','Abril/2015'],
 ]],
-
 ['Centro Olímpico de Tiro', 'Descrição',   [
+    ['2015-06_0016','Centro Olímpico de Tiro','Imagem aérea.','Ministério do Esporte do Brasil','Junho/2015'],
     ['2015-05_0002','Centro Olímpico de Tiro','Imagem aérea.','Ministério do Esporte do Brasil','Maio/2015'],
     ['2015-03_0005','Centro Olímpico de Tiro','Imagem aérea.','Ministério do Esporte do Brasil','Abril/2015'],
     ['2015-03_0006','Centro Olímpico de Tiro','Imagem aérea.','Ministério do Esporte do Brasil','Abril/2015'],
@@ -142,25 +153,32 @@ deodoro = [ 'Região Deodoro',[
     ['2015-03_0008','Centro Olímpico de Tiro','Imagem aérea.','Ministério do Esporte do Brasil','Abril/2015'],
 
 ]],
-
 ['Centro Aquático do Pentatlo Moderno', 'Descrição',   [
+    ['2015-06_0002','Centro Aquático do Pentatlo Moderno','Imagem aérea.','Ministério do Esporte do Brasil','Junho/2015'],
+    ['2015-06_0005','Centro Aquático do Pentatlo Moderno','Imagem aérea.','Ministério do Esporte do Brasil','Junho/2015'],
+    ['2015-06_0007','Centro Aquático do Pentatlo Moderno','Imagem aérea.','Ministério do Esporte do Brasil','Junho/2015'],
     ['2015-05_0003','Centro Aquático do Pentatlo Moderno','Imagem aérea.','Ministério do Esporte do Brasil','Maio/2015'],
     ['2015-05_0004','Centro Aquático do Pentatlo Moderno','Imagem aérea.','Ministério do Esporte do Brasil','Maio/2015'],
     ['2015-05_0006','Centro Aquático do Pentatlo Moderno','Imagem aérea.','Ministério do Esporte do Brasil','Maio/2015'],
     ['2015-03_0014','Centro Aquático do Pentatlo Moderno','Imagem aérea.','Ministério do Esporte do Brasil','Abril/2015'],
     ['2015-03_0016','Centro Aquático do Pentatlo Moderno','Imagem aérea.','Ministério do Esporte do Brasil','Abril/2015'],
-
-
 ]],
 ['Centro Nacional de Hóquei Sobre Grama', 'Descrição',   [
+    ['2015-06_0001','Centro Nacional de Hóquei Sobre Grama','Imagem aérea','Ministério do Esporte do Brasil','Junho/2015'],
+    ['2015-06_0005','Centro Nacional de Hóquei Sobre Grama','Imagem aérea','Ministério do Esporte do Brasil','Junho/2015'],
+    ['2015-06_0007','Centro Nacional de Hóquei Sobre Grama','Imagem aérea','Ministério do Esporte do Brasil','Junho/2015'],
     ['2015-05_0003','Centro Nacional de Hóquei Sobre Grama','Imagem aérea','Ministério do Esporte do Brasil','Maio/2015'],
     ['2015-05_0004','Centro Nacional de Hóquei Sobre Grama','Imagem aérea','Ministério do Esporte do Brasil','Maio/2015'],
     ['2015-05_0005','Centro Nacional de Hóquei Sobre Grama','Imagem aérea','Ministério do Esporte do Brasil','Maio/2015'],
     ['2015-03_0015','Centro Nacional de Hóquei Sobre Grama','Imagem aérea.','Ministério do Esporte do Brasil','Abril/2015'],
     ['2015-03_0016','Centro Nacional de Hóquei Sobre Grama','Imagem aérea.','Ministério do Esporte do Brasil','Abril/2015'],
-
 ]],
 ['Parque Radical do Rio', 'Descrição',   [
+    ['2015-06_0013','Parque Radical do Rio','Imagem aérea.','Ministério do Esporte do Brasil','Junho/2015'],
+    ['2015-06_0014','Parque Radical do Rio','Imagem aérea.','Ministério do Esporte do Brasil','Junho/2015'],
+    ['2015-06_0015','Parque Radical do Rio','Imagem aérea.','Ministério do Esporte do Brasil','Junho/2015'],
+    ['2015-06_0019','Parque Radical do Rio','Imagem aérea.','Ministério do Esporte do Brasil','Junho/2015'],
+    ['2015-06_0020','Parque Radical do Rio','Imagem aérea.','Ministério do Esporte do Brasil','Junho/2015'],
     ['2015-05_0001','Parque Radical do Rio','Imagem aérea.','Ministério do Esporte do Brasil','Maio/2015'],
     ['2015-03_0001','Parque Radical do Rio','Imagem aérea.','Ministério do Esporte do Brasil','Abril/2015'],
     ['2015-03_0002','Parque Radical do Rio','Imagem aérea.','Ministério do Esporte do Brasil','Abril/2015'],
@@ -339,6 +357,30 @@ rio = [ 'Rio de Janeiro',[
 
 
 data = [ 'Por data',[
+
+['Junho de 2015', 'Descrição',   [
+    ['2015-06_0001','Centro Nacional de Hóquei Sobre Grama','Imagem aérea','Ministério do Esporte do Brasil','Junho/2015'],
+    ['2015-06_0002','Centro Aquático do Pentatlo Moderno','Imagem aérea.','Ministério do Esporte do Brasil','Junho/2015'],
+    ['2015-06_0003','Centro Nacional de Hipismo','Imagem aérea.','Ministério do Esporte do Brasil','Junho/2015'],
+    ['2015-06_0004','Centro Nacional de Hipismo','Imagem aérea.','Ministério do Esporte do Brasil','Junho/2015'],
+    ['2015-06_0005','Arena da Juventude, Centro Nacional de Hóquei Sobre Grama e Centro Aquático do Pentatlo Moderno','Imagem aérea.','Ministério do Esporte do Brasil','Junho/2015'],
+    ['2015-06_0007','Arena da Juventude, Centro Nacional de Hóquei Sobre Grama e Centro Aquático do Pentatlo Moderno','Imagem aérea.','Ministério do Esporte do Brasil','Junho/2015'],
+    ['2015-06_0008','Arena da Juventude','Imagem aérea.','Ministério do Esporte do Brasil','Junho/2015'],
+    ['2015-06_0009','Parque Olímpico do Rio','Imagem aérea. Obras.','Ministério do Esporte do Brasil','Junho/2015'],
+    ['2015-06_0010','Velódromo Olímpico','Imagem aérea. Obras.','Ministério do Esporte do Brasil','Junho/2015'],
+    ['2015-06_0011','Centro Olímpico de Tênis','Quadras secundárias. Imagem aérea.','Ministério do Esporte do Brasil','Junho/2015'],
+    ['2015-06_0012','Estádio Olímpico de Esportes Aquáticos','Imagem aérea. Obras.','Ministério do Esporte do Brasil','Junho/2015'],
+    ['2015-06_0013','Parque Radical do Rio','Imagem aérea.','Ministério do Esporte do Brasil','Junho/2015'],
+    ['2015-06_0014','Parque Radical do Rio','Imagem aérea.','Ministério do Esporte do Brasil','Junho/2015'],
+    ['2015-06_0015','Parque Radical do Rio','Imagem aérea.','Ministério do Esporte do Brasil','Junho/2015'],
+    ['2015-06_0016','Centro Olímpico de Tiro','Imagem aérea.','Ministério do Esporte do Brasil','Junho/2015'],
+    ['2015-06_0017','Campo Olímpico de golfe','Imagem aérea.','Ministério do Esporte do Brasil','Junho/2015'],
+    ['2015-06_0018','Campo Olímpico de golfe','Imagem aérea.','Ministério do Esporte do Brasil','Junho/2015'],
+    ['2015-06_0019','Parque Radical do Rio','Imagem aérea.','Ministério do Esporte do Brasil','Junho/2015'],
+    ['2015-06_0020','Parque Radical do Rio','Imagem aérea.','Ministério do Esporte do Brasil','Junho/2015'],
+    ['2015-06_0021','Vila Olímpica','Imagem aérea. Obras.','Ministério do Esporte do Brasil','Junho/2015'],
+]],
+
 ['Maio de 2015', 'Descrição',   [
     ['2015-05_0001','Parque Radical do Rio','Imagem aérea.','Ministério do Esporte do Brasil','Maio/2015'],
     ['2015-05_0002','Centro Olímpico de Tiro','Imagem aérea.','Ministério do Esporte do Brasil','Maio/2015'],
@@ -469,7 +511,7 @@ lista = { 'inst_naoesportivas': naoesportivas,
 
 def geraPagina(secao):
             
-    f = open(htmls+secao+'.html', 'r+')
+#    f = open(htmls+secao+'.html', 'r+')
 
     aux = lista[secao]
 
@@ -581,9 +623,9 @@ def geraPagina(secao):
 
 
     linMeio.append('<div class="internabgAzul">\n')
-    linMeio.append('<p class="tituloInterna">' + titSecao + '</p>')
-    linMeio.append('<div class="loading"><img src="_images/ajax-loader.gif"/><br>Carregando</div>')
-    linMeio.append('<div id="accordion"  class="paginacao">')
+    linMeio.append('<p class="tituloInterna">' + titSecao + '</p>\n')
+    linMeio.append('<div class="loading"><img src="_images/ajax-loader.gif"/><br>Carregando</div>\n')
+    linMeio.append('<div id="accordion"  class="paginacao">\n')
 
     contador = 0
     for categoria in categorias:
@@ -609,7 +651,7 @@ def geraPagina(secao):
             linMeio.append('<li>\n')
             linMeio.append('<a href="#modal-'+secao+'_'+str(contador)+'_'+str(subCont)+'"><img src="_thumb/' + idVideo + '.png"/>\n')
 #           linMeio.append('<p><span>Abril/2015<br></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</p></a>')
-            linMeio.append('<p><span>' + dataVideo + '</span></p></a>')
+            linMeio.append('<p><span>' + dataVideo + '</span></p></a>\n')
             linMeio.append('<a href="http://videosolimpiadas2016.planalto.gov.br/'+  video[0] +'.mp4" download')
             linMeio.append(''' onClick="ga('send', 'event', \''''+ secao +'''\', 'click', \''''+ idVideo +'''\')" ''')
             linMeio.append('><img src="_images/botaodownload.png" alt="Download"/></a>\n')
@@ -678,7 +720,7 @@ def geraPagina(secao):
             linMeio.append('</div>\n')
             linMeio.append('<p class="pFancybox">'+ descVideo +'</p>\n')
             linMeio.append('<a href="http://videosolimpiadas2016.planalto.gov.br/'+ idVideo +'.mp4" download><img src="_images/botaodownload.png" alt="Download"/></a>\n')
-            linMeio.append('<p class="creditos">'+ credVideo + ' - ' + dataVideo +'</p>')
+            linMeio.append('<p class="creditos">'+ credVideo + ' - ' + dataVideo +'</p>\n')
             linMeio.append('</div>\n')
             linMeio.append('</div>\n')
             subCont = subCont + 1
