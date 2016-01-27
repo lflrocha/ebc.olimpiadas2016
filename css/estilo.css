@@ -12,6 +12,7 @@ body{
  behavior: url (css/csshover2.htc);/* inclui efeito :hover, :active e :focus para Internet Explorer 6 */
  color: white;
  margin: 0;
+ background-size: 100% auto;
 }
 
 #accordion {
